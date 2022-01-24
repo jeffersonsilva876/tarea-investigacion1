@@ -1,0 +1,113 @@
+.contenedorContacto {
+  background-color: var(--primary-color);
+  width: 75%;
+  color: white;
+  margin-left: 14%;
+  margin-right: 50%;
+  margin-top: 10%;
+  border-radius: 5px;
+  max-width: 80%;
+
+  height: 400px;
+  display: flex;
+}
+.col1 {
+  margin-left: 10%;
+  margin-top: 50px;
+}
+.col2 {
+  display: flex;
+  margin-left: -19%;
+  width: 30%;
+  height: 10%;
+  margin-top: 95px;
+}
+.con h3 {
+  font-size: 20px;
+  height: 30%;
+  margin-top: 20px;
+}
+.enviar {
+  color: var(--theme-color);
+
+  float: left;
+  margin-top: 5%;
+  width: 290px;
+  text-align: center;
+  margin-left: -1%;
+  cursor: pointer;
+  height: 22px;
+  background-color: var(--text-color);
+  border-radius: 5px;
+  border: none;
+}
+.nombre,
+.email,
+.mensaje {
+  margin-top: 6%;
+}
+.mensajeInput {
+  height: 240%;
+}
+.nombreInput,
+.emailInput,
+.mensajeInput {
+  width: 95%;
+}
+.imgSocial {
+  width: 18%;
+  height: 11%;
+  margin-left: -25%;
+  margin-right: 30%;
+  margin-top: 33%;
+}
+.emojis {
+  position: absolute;
+  padding-bottom: 20px;
+  padding: 20px;
+  left: 400px;
+  margin-right: -20%;
+}
+
+@media (max-width: 750px) {
+  .contenedorContacto {
+    margin-top: 50%;
+    height: 990px;
+    height: 700px;
+    width: 1200px;
+  }
+
+  .col1 {
+    align-items: center;
+    width: 93%;
+    height: 55%;
+    margin-left: -px;
+  }
+  .col2 {
+    /*align-items: center;
+        float: left;
+        padding-top: 110%;
+        left: 20%;*/
+    float: left;
+    margin-top: 110%;
+    margin-left: -120%;
+  }
+
+  .enviar {
+    margin-left: 0%;
+  }
+
+  .con h3 {
+    font-size: 20px;
+    height: 30%;
+    margin-top: 20px;
+  }
+
+  .emojis {
+    position: fixed;
+    padding-bottom: 20px;
+    padding: 20px;
+    left: 400px;
+    margin-right: -20%;
+  }
+}
